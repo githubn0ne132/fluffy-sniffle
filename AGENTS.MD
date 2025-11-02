@@ -57,12 +57,17 @@ This section will be populated with the memory offsets as they are discovered. R
 
 ## 7. Setup and Running
 
-1. **Install Dependencies:**
+1. **Setup the Python Environment:**
    ```bash
-   pip install -r requirements.txt
+   python setup_env.py
    ```
+   This will download a local Python binary and install the required dependencies.
+
 2. **Run the bot:**
    ```bash
+   # You can use the python executable from the .env file
+   # For example, on Windows:
+   #  .\python-3.11.4-embed-amd64\python.exe main.py
    python main.py
    ```
 
